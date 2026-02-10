@@ -1,4 +1,4 @@
-## AI Plan Starter
+## AI Travel Planner
 
 Minimal Next.js (App Router) starter with:
 
