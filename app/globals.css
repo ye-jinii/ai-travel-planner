@@ -1,5 +1,5 @@
-@import "tailwindcss";
-@import "shadcn/tailwind.css";
+@import 'tailwindcss';
+@import 'shadcn/tailwind.css';
 
 @custom-variant dark (&:is(.dark *));
 
@@ -121,7 +121,7 @@
   }
 
   body {
-    @apply min-h-screen text-foreground antialiased;
+    @apply text-foreground min-h-screen antialiased;
     background: var(--background);
   }
 }

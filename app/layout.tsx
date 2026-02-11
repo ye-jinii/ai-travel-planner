@@ -1,17 +1,13 @@
-import type { Metadata } from "next";
-import "./globals.css";
-import { QueryProvider } from "@/components/providers/query-provider";
+import type { Metadata } from 'next';
+import './globals.css';
+import { QueryProvider } from '@/components/providers/query-provider';
 
 export const metadata: Metadata = {
-  title: "AI Plan Starter",
-  description: "Minimal Next.js starter with shadcn/ui and TanStack Query",
+  title: 'AI Plan Starter',
+  description: 'Minimal Next.js starter with shadcn/ui and TanStack Query',
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
       <body>
@@ -20,4 +16,3 @@ export default function RootLayout({
     </html>
   );
 }
-
