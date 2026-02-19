@@ -2,9 +2,9 @@
 
 import { useMemo, useState } from 'react';
 import { Plane } from 'lucide-react';
-import { DestinationSearch } from '@/features/planner/components/DestinationSearch';
-import { DestinationCard } from '@/features/planner/components/DestinationCard';
-import { popularDestinations } from '@/features/planner/data/destinations';
+import { DestinationSearch } from '@/features/home/components/DestinationSearch';
+import { DestinationCard } from '@/features/home/components/DestinationCard';
+import { popularDestinations } from '@/mocks/destinations';
 
 export default function HomePage() {
   const [searchQuery, setSearchQuery] = useState('');
