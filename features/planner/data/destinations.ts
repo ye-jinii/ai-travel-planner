@@ -1,0 +1,68 @@
+import type { DestinationOption } from '@/features/planner/types/planner';
+
+export const popularDestinations: DestinationOption[] = [
+  {
+    id: 'japan',
+    name: '일본',
+    country: 'Japan',
+    cities: '도쿄, 오사카, 교토',
+    price: '80만원~',
+    flag: '🇯🇵',
+  },
+  {
+    id: 'thailand',
+    name: '태국',
+    country: 'Thailand',
+    cities: '방콕, 푸켓, 치앙마이',
+    price: '90만원~',
+    flag: '🇹🇭',
+  },
+  {
+    id: 'vietnam',
+    name: '베트남',
+    country: 'Vietnam',
+    cities: '다낭, 호치민, 하노이',
+    price: '70만원~',
+    flag: '🇻🇳',
+  },
+  {
+    id: 'france',
+    name: '프랑스',
+    country: 'France',
+    cities: '파리, 니스, 리옹',
+    price: '200만원~',
+    flag: '🇫🇷',
+  },
+  {
+    id: 'usa',
+    name: '미국',
+    country: 'USA',
+    cities: '뉴욕, LA, 샌프란시스코',
+    price: '250만원~',
+    flag: '🇺🇸',
+  },
+  {
+    id: 'spain',
+    name: '스페인',
+    country: 'Spain',
+    cities: '바르셀로나, 마드리드',
+    price: '180만원~',
+    flag: '🇪🇸',
+  },
+  {
+    id: 'singapore',
+    name: '싱가포르',
+    country: 'Singapore',
+    cities: '싱가포르',
+    price: '120만원~',
+    flag: '🇸🇬',
+  },
+  {
+    id: 'uk',
+    name: '영국',
+    country: 'UK',
+    cities: '런던, 에든버러',
+    price: '220만원~',
+    flag: '🇬🇧',
+  },
+];
