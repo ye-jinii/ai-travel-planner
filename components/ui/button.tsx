@@ -8,12 +8,12 @@ import { cn } from '@/lib/utils';
 
 const buttonVariants = cva(
   'inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors ' +
-    'focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sky-500 focus-visible:ring-offset-2 ' +
+    'focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#6D28D9] focus-visible:ring-offset-2 ' +
     'disabled:pointer-events-none disabled:opacity-50 ring-offset-white',
   {
     variants: {
       variant: {
-        default: 'bg-sky-600 text-white shadow hover:bg-sky-700 active:bg-sky-800',
+        default: 'bg-[#7C3AED] text-white shadow hover:bg-[#6D28D9] active:bg-[#6D28D9]',
         outline: 'border border-slate-200 bg-white hover:bg-slate-50 hover:text-slate-900',
         ghost: 'hover:bg-slate-100 hover:text-slate-900 text-slate-700 bg-transparent',
       },

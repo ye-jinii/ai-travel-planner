@@ -10,9 +10,9 @@ interface DestinationSearchProps {
 
 export function DestinationSearch({ value, onChange }: DestinationSearchProps) {
   return (
-    <div className="rounded-2xl border border-white/60 bg-white/80 p-4 shadow-[0_20px_45px_rgba(15,32,70,0.08)] backdrop-blur">
+    <div className="rounded-[22px] border border-[#6D28D9]/20 bg-white p-3 shadow-[0_18px_40px_rgba(15,23,42,0.08)]">
       <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
-        <label className="flex flex-1 items-center gap-2 rounded-xl border border-slate-200 bg-white px-4 py-3 text-sm text-slate-500">
+        <label className="flex flex-1 items-center gap-3 rounded-xl border border-slate-200 bg-white px-4 py-4 text-sm text-slate-500">
           <Search className="h-4 w-4 text-slate-400" />
           <input
             type="text"
@@ -22,7 +22,7 @@ export function DestinationSearch({ value, onChange }: DestinationSearchProps) {
             className="w-full bg-transparent text-sm text-slate-700 outline-none"
           />
         </label>
-        <Button className="h-11 rounded-xl px-6">검색</Button>
+        <Button className="h-12 rounded-xl px-8 text-sm font-semibold">여행 시작</Button>
       </div>
     </div>
   );
