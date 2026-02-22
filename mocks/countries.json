@@ -1,0 +1,56 @@
+[
+  {
+    "code": "KR",
+    "nameKo": "대한민국",
+    "nameEn": "South Korea",
+    "aliases": ["South Korea", "Korea", "Republic of Korea", "대한민국", "한국"]
+  },
+  {
+    "code": "JP",
+    "nameKo": "일본",
+    "nameEn": "Japan",
+    "aliases": ["Japan", "Nippon", "日本", "일본"]
+  },
+  {
+    "code": "TH",
+    "nameKo": "태국",
+    "nameEn": "Thailand",
+    "aliases": ["Thailand", "태국"]
+  },
+  {
+    "code": "VN",
+    "nameKo": "베트남",
+    "nameEn": "Vietnam",
+    "aliases": ["Vietnam", "Viet Nam", "베트남"]
+  },
+  {
+    "code": "FR",
+    "nameKo": "프랑스",
+    "nameEn": "France",
+    "aliases": ["France", "French Republic", "프랑스"]
+  },
+  {
+    "code": "US",
+    "nameKo": "미국",
+    "nameEn": "United States",
+    "aliases": ["United States", "USA", "US", "America", "미국"]
+  },
+  {
+    "code": "ES",
+    "nameKo": "스페인",
+    "nameEn": "Spain",
+    "aliases": ["Spain", "España", "스페인"]
+  },
+  {
+    "code": "SG",
+    "nameKo": "싱가포르",
+    "nameEn": "Singapore",
+    "aliases": ["Singapore", "싱가포르"]
+  },
+  {
+    "code": "GB",
+    "nameKo": "영국",
+    "nameEn": "United Kingdom",
+    "aliases": ["United Kingdom", "UK", "Britain", "Great Britain", "영국"]
+  }
+]
